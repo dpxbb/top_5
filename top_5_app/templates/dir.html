@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+    {% for key,item in director_dict.items() %}
+        <li>{{key}} - {{item}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
